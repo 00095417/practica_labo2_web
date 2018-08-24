@@ -5,6 +5,73 @@
     <title>Curriculum</title>
 </head>
 <body>
-    
+    <header>
+        <h1 align="center"> Curriculum Vitae </h1>
+    </header>
+    <section>
+        <article>
+            <form action="#" method="POST" >
+                <!--Primera seccion-->
+                <fieldset>
+                    <legend>Personal Data</legend>
+                    <label for="DUI">DUI:</label>
+                    <input type="text" name = "DUI" placeholder="0123456789" required>
+                    <label for="first name">First Name:</label>
+                    <input type="text" name="First Name" placeholder="First Name" required>
+                    <label for="last name">Last Name:</label>
+                    <input type="text" name="Last Name" placeholder="Last Name" required>
+                    <label for="gender">Gender</label>
+                    <input type="radio">M
+                    <input type="radio">F
+                    <br><br>
+                    <label for="contact number">Contact Number:</label>
+                    <input type="text" name="Contact Number" required>
+                    <label for="birthdate">Birthdate:</label>
+                    <input type="date" name="Birthdate" value="1993-11-08">
+                    <label for="civil status">Civil Status</label>
+                    <select for="civil status">
+                        <option value="sing">Single</option>
+                        <option value="married">Married</option>
+                        <option value="divorce">Divorced</option>
+                    </select>
+                    <input type="file">
+                </fieldset>
+                <!--Segunda seccion-->
+                <fieldset>
+                    <legend>Work Experience</legend>
+                    <textarea name="experence" cols="150" rows="10" placeholder="Experence"></textarea>
+                </fieldset>
+                <!--Tercera seccion-->
+                <fieldset>
+                    <legend>Academic Training</legend>
+                    <textarea name="academic training" cols="150" rows="10" placeholder="Academic Training"></textarea>
+                </fieldset>
+                <!--Cuarta parte-->
+                <fieldset>
+                    <legend>Furter Training</legend>
+                    <fieldset>
+                        <legend>Programming Languages</legend>
+                        <input type="checkbox">Java
+                        <input type="checkbox">C#
+                        <input type="checkbox">Phyton
+                        <input type="checkbox">C++
+                        <input type="checkbox">Ruby
+                    </fieldset>
+                    <fieldset>
+                        <legend>Web Technologies</legend>
+                        <input type="checkbox">HTML5
+                        <input type="checkbox">CSS/CSS3
+                        <input type="checkbox">materialize CSS
+                        <input type="checkbox">Javascript
+                        <input type="checkbox">Node.js
+                        <input type="checkbox">Spring MVC
+                    </fieldset>
+                </fieldset>
+                <br>
+                <input type="submit" value="submit">
+                <button>Cancel</button>
+            </form>
+        </article>
+    </section>
 </body>
 </html>
